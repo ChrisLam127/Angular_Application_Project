@@ -13,7 +13,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HomeComponent } from './components/home/home.component';
-import { ItemComponent } from './components/item/item.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RatingComponent } from './components/rating/rating.component';
 import { ServicesComponent } from './components/services/services.component';
@@ -36,7 +35,6 @@ import { FeaturedComponent } from './components/featured/featured.component';
     FooterComponent,
     PageNotFoundComponent,
     HomeComponent,
-    ItemComponent,
     RatingComponent,
     ServicesComponent,
     HeroComponent,

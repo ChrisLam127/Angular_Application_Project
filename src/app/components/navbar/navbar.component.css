@@ -22,3 +22,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+button span i {
+  font-style: 1rem;
+}

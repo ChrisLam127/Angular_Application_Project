@@ -12,4 +12,8 @@
 .card-display img {
   height: 90%;
   object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+.card-display img:hover {
+  transform: scale(1.1);
 }

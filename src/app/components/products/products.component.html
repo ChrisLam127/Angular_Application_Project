@@ -15,7 +15,6 @@
       *ngFor="let product of products"
     >
       <div
-        routerLink="/products/{{ product.id }}"
         class="card rounded shadow-sm border-0 product-card"
         style="cursor: pointer"
       >
@@ -24,6 +23,7 @@
             [src]="product.image"
             class="img-fluid d-block mx-auto mb-3"
             alt="{{ product.title }}"
+            routerLink="/products/{{ product.id }}"
           />
 
           <div class="card-body">
@@ -34,7 +34,7 @@
             </div>
             <h4>{{ product.price | currency: "R" }}</h4>
 
-            <button class="btn btn-primary" (click)="addToCart(product)">
+            <button class="btn btn-primary buuton" (click)="addToCart(product)">
               <i class="cart fa fa-shopping-cart"></i> Add to Cart
             </button>
           </div>

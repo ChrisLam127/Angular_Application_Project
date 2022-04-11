@@ -74,7 +74,6 @@
         *ngFor="let product of products"
       >
         <div
-          routerLink="/products/{{ product.id }}"
           class="card rounded shadow-sm border-0 product-card"
           style="cursor: pointer"
         >
@@ -83,6 +82,7 @@
               [src]="product.image"
               class="img-fluid d-block mx-auto mb-3"
               alt="{{ product.title }}"
+              routerLink="/products/{{ product.id }}"
             />
 
             <div class="card-body">
